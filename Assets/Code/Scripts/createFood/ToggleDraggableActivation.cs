@@ -36,7 +36,7 @@ public class ToggleDraggableActivation : MonoBehaviour
                         }
                     }  
 
-                    if(sceneName == "S5_Supermarket") {
+                    if(sceneName == "S5_Supermarket" || sceneName == "S6_Garden") {
                         if(Global.selectedFoods.Count > 0) {
                             int index = Global.selectedFoods.FindIndex(bf => bf.foodId == childData.id); 
                             

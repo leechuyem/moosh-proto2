@@ -120,6 +120,76 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &30026004
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8145264285763623726, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_Name
+      value: 1_Single_Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.3081799
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7994965
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3625525148064126767, guid: f4b1a03a9ea53c34894368b8b984f127,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 7243324766535440047, guid: f4b1a03a9ea53c34894368b8b984f127,
+    type: 3}
 --- !u!1 &108470589 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2239290752670615812, guid: 6d62f18a0c3c49c46b20535bbd8297af,
@@ -263,7 +333,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &404230631
 MonoBehaviour:
@@ -426,7 +496,7 @@ PrefabInstance:
     - target: {fileID: 7095797866135028563, guid: c9b7133ce999c3a47ba0c7bff02b09e9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7095797866135028563, guid: c9b7133ce999c3a47ba0c7bff02b09e9,
         type: 3}
@@ -986,7 +1056,7 @@ Transform:
   - {fileID: 475210463}
   - {fileID: 108470590}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1280636226
 GameObject:
@@ -1017,7 +1087,7 @@ Transform:
   m_Children:
   - {fileID: 1142890789}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1289355082
 PrefabInstance:
@@ -1516,7 +1586,7 @@ Transform:
   - {fileID: 1351928501}
   - {fileID: 1293202886}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1542563708 stripped
 Transform:
@@ -1555,7 +1625,7 @@ Transform:
   - {fileID: 1347593822}
   - {fileID: 1948725853}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1875012523
 GameObject:
@@ -1589,7 +1659,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1875012525
 MonoBehaviour:
@@ -1659,7 +1729,7 @@ MonoBehaviour:
     scale: 0.081
   - sprite: {fileID: 3286163911610860551, guid: de565a0219882434fb201ba3b1637cb7,
       type: 3}
-    scale: 0.0596
+    scale: 0.0855
   - sprite: {fileID: 3286163911610860551, guid: 41469b258ba2bbf41b75bc762a152c9e,
       type: 3}
     scale: 0.067
@@ -1672,6 +1742,40 @@ MonoBehaviour:
   - sprite: {fileID: 3286163911610860551, guid: 54648b557ea24f54aae8f1d2c2812e59,
       type: 3}
     scale: 0.058
+  - sprite: {fileID: 3286163911610860551, guid: f4b1a03a9ea53c34894368b8b984f127,
+      type: 3}
+    scale: 0.49
+  - sprite: {fileID: 3286163911610860551, guid: 3a943771e9592d54786df325051ec034,
+      type: 3}
+    scale: 0.52
+  - sprite: {fileID: 3286163911610860551, guid: cad5981569c2fd94089d4ed7c04b158a,
+      type: 3}
+    scale: 0.66
+  - sprite: {fileID: 21300000, guid: f2e6a31a80e1ea2469e0df5112ad52db, type: 3}
+    scale: 0.68
+  - sprite: {fileID: 3286163911610860551, guid: b7d1b032b365a4b49aeb5ab74a047ad9,
+      type: 3}
+    scale: 0.8
+  - sprite: {fileID: 3286163911610860551, guid: e8d9cbc6c05c60e4a9ed2217016851b7,
+      type: 3}
+    scale: 0.43
+  - sprite: {fileID: 3286163911610860551, guid: bd08f3398a6fd494d9a1ff785d81a98f,
+      type: 3}
+    scale: 0.2
+  - sprite: {fileID: 3286163911610860551, guid: b803603b31532134383dd57143aed989,
+      type: 3}
+    scale: 0.15
+  - sprite: {fileID: 3286163911610860551, guid: dc808e7840fddc34eb3edb9614955bb5,
+      type: 3}
+    scale: 0.65
+  - sprite: {fileID: 21300000, guid: 3411e1428a4c88b4882ef5b321831ac3, type: 3}
+    scale: 1.2
+  - sprite: {fileID: 3286163911610860551, guid: 7809fc5e2c3945e4fbf6d5a02734af50,
+      type: 3}
+    scale: 0.44
+  - sprite: {fileID: 3286163911610860551, guid: d8c721ba53e85524f9315e428a062580,
+      type: 3}
+    scale: 0.5
 --- !u!114 &1875012526
 MonoBehaviour:
   m_ObjectHideFlags: 0
