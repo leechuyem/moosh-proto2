@@ -62,6 +62,7 @@
      <Compile Include="Assets\Code\Classes\Response.cs" />
      <Compile Include="Assets\Code\Classes\Session.cs" />
      <Compile Include="Assets\Code\Classes\SpriteData.cs" />
+     <Compile Include="Assets\Code\Enums\Layers.cs" />
      <Compile Include="Assets\Code\Enums\Location.cs" />
      <Compile Include="Assets\Code\Enums\Result.cs" />
      <Compile Include="Assets\Code\Scripts\btn\btnOnHoverBehaviour.cs" />
@@ -85,6 +86,7 @@
      <Compile Include="Assets\Code\Scripts\Controllers\GardenFoodController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\GeneralBtnController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\KitchenFoodController.cs" />
+     <Compile Include="Assets\Code\Scripts\Controllers\PhysicsController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\SaveBtnController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\SupermarketFoodController.cs" />
      <Compile Include="Assets\Code\Scripts\CreateDraggables.cs" />
