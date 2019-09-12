@@ -2,9 +2,11 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq; 
+using UnityEngine.SceneManagement; 
 
 public class NewGameBtnController : MonoBehaviour
 {
+    public string sceneName; 
     private bool sendingData = false; 
     private async void OnMouseUp() {
         if(!sendingData) {
@@ -32,8 +34,9 @@ public class NewGameBtnController : MonoBehaviour
             return; 
         }
         
+        clearLists(); 
         // go to next scene
-        GetComponent<GoToNextSceneBehaviour>().goToNextScene(); 
+        SceneManager.LoadScene(sceneName);
     }
 
     private string decodeSession(string data) {
@@ -44,5 +47,23 @@ public class NewGameBtnController : MonoBehaviour
         data = $"{{\"FoodList\":{data}}}";
         Foods decodedData = JsonUtility.FromJson<Foods>(data); 
         return decodedData.FoodList.ToList();
+    }
+
+    private void clearLists() {
+        Global.selectedFoodFromAPI.Clear();
+        Global.selectedFoods.Clear();
+        Global.inBlenderFoods.Clear();
+        Global.inBlenderFoodsFromAPI.Clear(); 
+        Global.kitchenDraggables.Clear();
+        Global.superMarketDraggables.Clear();
+        Global.gardenDraggables.Clear(); 
+
+        GameObject kitchenDraggableFoods = GameObject.Find("KitchenDraggableFoods"); 
+        GameObject supermarketDraggableFoods = GameObject.Find("SupermarketDraggableFoods");
+        GameObject gardenFoodDraggables = GameObject.Find("GardenFoodDraggables");
+
+        Destroy(kitchenDraggableFoods);
+        Destroy(supermarketDraggableFoods);
+        Destroy(gardenFoodDraggables);
     }
 }
