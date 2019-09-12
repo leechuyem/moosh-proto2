@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2502010726059049162}
   - component: {fileID: 3537938317761722403}
   - component: {fileID: -2240796513675121854}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DraggableFood
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5542134739528528476}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.035, y: 2.59, z: 0}
+  m_LocalPosition: {x: -4.035, y: 2.59, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
