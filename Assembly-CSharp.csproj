@@ -92,6 +92,7 @@
      <Compile Include="Assets\Code\Scripts\createFood\FoodData.cs" />
      <Compile Include="Assets\Code\Scripts\createFood\LoadFoodFromAPIHandler.cs" />
      <Compile Include="Assets\Code\Scripts\createFood\ToggleDraggableActivation.cs" />
+     <Compile Include="Assets\Code\Scripts\CreateNameTags.cs" />
      <Compile Include="Assets\Code\Scripts\CreateReactionSprite.cs" />
      <Compile Include="Assets\Code\Scripts\dragAndDropBehaviour.cs" />
      <Compile Include="Assets\Code\Scripts\FoodHandler.cs" />

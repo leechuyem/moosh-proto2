@@ -856,7 +856,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1076,16 +1076,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1078252868328327312, guid: a9b5f8e0d5caef848a3ebd7a469da197,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.658
-      objectReference: {fileID: 0}
-    - target: {fileID: 1078252868328327312, guid: a9b5f8e0d5caef848a3ebd7a469da197,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.239
-      objectReference: {fileID: 0}
     - target: {fileID: 6221582637769177243, guid: a9b5f8e0d5caef848a3ebd7a469da197,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -1130,6 +1120,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078252868328327312, guid: a9b5f8e0d5caef848a3ebd7a469da197,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.658
+      objectReference: {fileID: 0}
+    - target: {fileID: 1078252868328327312, guid: a9b5f8e0d5caef848a3ebd7a469da197,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.239
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b5f8e0d5caef848a3ebd7a469da197, type: 3}
@@ -2151,15 +2151,15 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9960785
       objectReference: {fileID: 0}
-    - target: {fileID: -3418480764685311585, guid: b537fe68bac3cfd4086dd0c5240b80f6,
-        type: 3}
-      propertyPath: sceneName
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3956501666980303180, guid: b537fe68bac3cfd4086dd0c5240b80f6,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.647
+      objectReference: {fileID: 0}
+    - target: {fileID: -3418480764685311585, guid: b537fe68bac3cfd4086dd0c5240b80f6,
+        type: 3}
+      propertyPath: sceneName
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -3418480764685311585, guid: b537fe68bac3cfd4086dd0c5240b80f6, type: 3}

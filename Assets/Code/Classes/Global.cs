@@ -32,7 +32,7 @@ public static class Global {
     // public static List<InteractiveFood> inBlenderFoodFromAPI = new List<InteractiveFood> () {
     //     new InteractiveFood { foodId = 11, quantity = 1 },
     //     new InteractiveFood { foodId = 13, quantity = 1 },
-    //     // new InteractiveFood { foodId = 19, quantity = 1 },
+    //     new InteractiveFood { foodId = 19, quantity = 1 },
     // };
 
     // // NOTE: Test for results and spawning food into blender
@@ -67,14 +67,14 @@ public static class Global {
 
     // NOTE: Test for spawning fixedFoods in Kitchen, sending to API
     // public static List<InteractiveFood> selectedFoods = new List<InteractiveFood> () {
-    //     new InteractiveFood { foodId = 17, quantity = 3 },
-    //     new InteractiveFood { foodId = 19, quantity = 2 },
-    //     new InteractiveFood { foodId = 21, quantity = 2 },
-    //     new InteractiveFood { foodId = 24, quantity = 2 },
-    //     new InteractiveFood { foodId = 25, quantity = 3 },
-    //     new InteractiveFood { foodId = 26, quantity = 3 },
-    //     new InteractiveFood { foodId = 27, quantity = 3 },
-    //     new InteractiveFood { foodId = 28, quantity = 3 },
+    // new InteractiveFood { foodId = 17, quantity = 3 },
+    // new InteractiveFood { foodId = 19, quantity = 2 },
+    // new InteractiveFood { foodId = 21, quantity = 2 },
+    // new InteractiveFood { foodId = 24, quantity = 2 },
+    // new InteractiveFood { foodId = 25, quantity = 3 },
+    // new InteractiveFood { foodId = 26, quantity = 3 },
+    // new InteractiveFood { foodId = 27, quantity = 3 },
+    // new InteractiveFood { foodId = 28, quantity = 3 },
     // new InteractiveFood { foodId = 30, quantity = 3 },
     // new InteractiveFood { foodId = 32, quantity = 3 },
     // new InteractiveFood { foodId = 3, quantity = 3 },
