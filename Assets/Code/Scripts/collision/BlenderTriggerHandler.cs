@@ -16,6 +16,12 @@ public class BlenderTriggerHandler : MonoBehaviour
         }
         
         other.GetComponent<FoodData>().addedToListAlready = true; 
+
+        other.GetComponent<DraggableFoodController>().isScaledDown = true; 
+        
+        Bounds bounds = gameObject.GetComponent<PolygonCollider2D>().bounds; 
+        other.GetComponent<DraggableFoodController>().moveObjectToCenterOfBlender(bounds);
+        
     }
 
     private void OnTriggerExit2D(Collider2D other) {
@@ -29,5 +35,8 @@ public class BlenderTriggerHandler : MonoBehaviour
         }
 
         other.GetComponent<FoodData>().addedToListAlready = false; 
+
+        other.GetComponent<DraggableFoodController>().isScaledDown = false; 
+
     }
 }
