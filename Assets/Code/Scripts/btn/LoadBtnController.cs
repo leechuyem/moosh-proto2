@@ -28,7 +28,7 @@ public class LoadBtnController : MonoBehaviour
                 // go to next scene          
                 GetComponent<GoToNextSceneBehaviour>().goToNextScene(); 
             } else {
-                print(responses[0].error + " - " + responses[1].error); 
+                // print(responses[0].error + " - " + responses[1].error); 
                 this.gettingData = false; 
                 return; 
             }

@@ -31,10 +31,10 @@ public static class HttpHandler {
         await request.SendWebRequest(); 
 
         if(request.isNetworkError || request.isHttpError) {
-            Debug.Log("ruh oh!" + " - " + request.error + data);
+            // Debug.Log("ruh oh!" + " - " + request.error + data);
             response.error = request.error;
         } else {
-            Debug.Log("finished: " + request.downloadHandler.text);
+            // Debug.Log("finished: " + request.downloadHandler.text);
             response.data = request.downloadHandler.text;
         }
 
@@ -53,10 +53,10 @@ public static class HttpHandler {
         await request.SendWebRequest(); 
 
         if(request.isNetworkError || request.isHttpError) {
-            Debug.Log("ruh oh!" + " - " + request.error + data + url);
+            // Debug.Log("ruh oh!" + " - " + request.error + data + url);
             response.error = request.error;
         } else {
-            Debug.Log("finished: " + request.downloadHandler.text);
+            // Debug.Log("finished: " + request.downloadHandler.text);
             response.data = request.downloadHandler.text;
         }
 

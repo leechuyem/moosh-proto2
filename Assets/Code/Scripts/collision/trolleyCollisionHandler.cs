@@ -19,7 +19,7 @@ public class trolleyCollisionHandler : MonoBehaviour {
         }
 
         other.GetComponent<FoodData>().addedToListAlready = true;
-        print("total from entering trolley: " + Global.selectedFoods.Sum(item => item.quantity));
+        // print("total from entering trolley: " + Global.selectedFoods.Sum(item => item.quantity));
 
         // print(Global.selectedFoods.Find(sf => sf.foodId == collidedFoodId).foodName + " " + Global.selectedFoods.Find(sf => sf.foodId == collidedFoodId).quantity);
 

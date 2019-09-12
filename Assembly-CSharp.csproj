@@ -81,11 +81,13 @@
      <Compile Include="Assets\Code\Scripts\collision\trolleyCollisionHandler.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\BasketTriggerController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\BlendBtnController.cs" />
+     <Compile Include="Assets\Code\Scripts\Controllers\ButtonController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\DraggableFoodController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\FixedFoodController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\GardenFoodController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\GeneralBtnController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\KitchenFoodController.cs" />
+     <Compile Include="Assets\Code\Scripts\Controllers\LoginBtnController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\PhysicsController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\SaveBtnController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\SupermarketFoodController.cs" />
@@ -98,6 +100,7 @@
      <Compile Include="Assets\Code\Scripts\CreateReactionSprite.cs" />
      <Compile Include="Assets\Code\Scripts\dragAndDropBehaviour.cs" />
      <Compile Include="Assets\Code\Scripts\FoodHandler.cs" />
+     <Compile Include="Assets\Code\Scripts\GoToSpecificScene.cs" />
      <Compile Include="Assets\Code\Scripts\helper\Helper.cs" />
      <Compile Include="Assets\Code\Scripts\http\HttpGetHandler.cs" />
      <Compile Include="Assets\Code\Scripts\icon\SetIconSpr.cs" />

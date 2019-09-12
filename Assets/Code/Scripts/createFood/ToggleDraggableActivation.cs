@@ -13,7 +13,7 @@ public class ToggleDraggableActivation : MonoBehaviour
         if(scene.name == sceneName) {
 
             for(int i = 0; i < transform.childCount; i++) {
-                print("on load: " + i);
+                // print("on load: " + i);
                 
                 GameObject child = transform.GetChild(i).gameObject; 
                 FoodData childData = child.GetComponent<FoodData>(); 
