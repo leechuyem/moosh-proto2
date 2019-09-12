@@ -33,9 +33,7 @@ public class DraggableFoodController : MonoBehaviour {
             
             if(draggableFoodCounter == 1 && collideWithThisObject) {
                 this.isMouseDown = true; 
-                print("Down on on: " + this.gameObject.GetComponent<SpriteRenderer>().sprite.name);
-            } else {
-                this.isMouseDown = false; 
+                // print("Down on on: " + this.gameObject.GetComponent<SpriteRenderer>().sprite.name);
             }
         } else {
             this.isMouseDown = false; 
