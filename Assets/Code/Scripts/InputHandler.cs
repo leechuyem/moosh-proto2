@@ -10,7 +10,7 @@ public class InputHandler : MonoBehaviour
     public Color errorTextColour; 
     public string errorText; 
     private bool gettingData = false; 
-    private async void OnMouseUp() { 
+    public async void login() { 
         if(this.input.text != "" && !this.gettingData) {
             this.gettingData = true; 
             string userId = input.text; 
