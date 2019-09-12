@@ -11,9 +11,7 @@ public class NewGameBtnController : MonoBehaviour
     private async void OnMouseUp() {
         if(!sendingData) {
             sendingData = true; 
-
             await createNewSession(); 
-
             sendingData = false; 
         }
     }
@@ -30,11 +28,12 @@ public class NewGameBtnController : MonoBehaviour
         if((responses[0].error == null) && (responses[1].error == null)) {
             Global.sessionId = decodeSession(responses[0].data);
             Global.foodData = decodeFood(responses[1].data); 
+
+            print("new session id: " + responses[0].data);
         } else {
             return; 
         }
         
-        clearLists(); 
         // go to next scene
         SceneManager.LoadScene(sceneName);
     }
@@ -47,23 +46,5 @@ public class NewGameBtnController : MonoBehaviour
         data = $"{{\"FoodList\":{data}}}";
         Foods decodedData = JsonUtility.FromJson<Foods>(data); 
         return decodedData.FoodList.ToList();
-    }
-
-    private void clearLists() {
-        Global.selectedFoodFromAPI.Clear();
-        Global.selectedFoods.Clear();
-        Global.inBlenderFoods.Clear();
-        Global.inBlenderFoodsFromAPI.Clear(); 
-        Global.kitchenDraggables.Clear();
-        Global.superMarketDraggables.Clear();
-        Global.gardenDraggables.Clear(); 
-
-        GameObject kitchenDraggableFoods = GameObject.Find("KitchenDraggableFoods"); 
-        GameObject supermarketDraggableFoods = GameObject.Find("SupermarketDraggableFoods");
-        GameObject gardenFoodDraggables = GameObject.Find("GardenFoodDraggables");
-
-        Destroy(kitchenDraggableFoods);
-        Destroy(supermarketDraggableFoods);
-        Destroy(gardenFoodDraggables);
     }
 }
