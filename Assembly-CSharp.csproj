@@ -89,6 +89,7 @@
      <Compile Include="Assets\Code\Scripts\Controllers\KitchenFoodController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\LoginBtnController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\PhysicsController.cs" />
+     <Compile Include="Assets\Code\Scripts\Controllers\RestartBtnController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\SaveBtnController.cs" />
      <Compile Include="Assets\Code\Scripts\Controllers\SupermarketFoodController.cs" />
      <Compile Include="Assets\Code\Scripts\CreateDraggables.cs" />

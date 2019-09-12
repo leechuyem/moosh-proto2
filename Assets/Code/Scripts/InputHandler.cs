@@ -31,6 +31,8 @@ public class InputHandler : MonoBehaviour
                 // HAS an unfinished game                
                 Session lastSess = JsonUtility.FromJson<Session>(sessRes.data);
                 Global.sessionId = lastSess.id;
+            } else {
+                print("something went wrong: " + sessRes.error);
             }
 
             // go to next scene
