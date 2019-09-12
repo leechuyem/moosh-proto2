@@ -55,7 +55,7 @@ public class CreateNameTags: MonoBehaviour
 
         // y - height/2
         // because the sprite's pivot point is at the center
-        outerTag.transform.localPosition = new Vector3 (x, y - outerHeight / 2, -3); 
+        outerTag.transform.localPosition = new Vector3 (x, y - outerHeight / 2, -1); 
     }
 
     private void positionInnerTag(float x) {
@@ -65,11 +65,11 @@ public class CreateNameTags: MonoBehaviour
         // Using the same y cord as the outer tag.
         // So, the inner tag would be positioned a bit lower than the outer tag
         // because the inner tag is smaller than the outer tag
-        innerTag.transform.localPosition = new Vector3 (x, outerY, -4);
+        innerTag.transform.localPosition = new Vector3 (x, outerY, -2);
     }
 
     private void positionText(float x) {
         float outerY = outerTag.transform.localPosition.y;
-        text.transform.localPosition = new Vector3 (x, outerY, -5);
+        text.transform.localPosition = new Vector3 (x, outerY, -2);
     }
 }
