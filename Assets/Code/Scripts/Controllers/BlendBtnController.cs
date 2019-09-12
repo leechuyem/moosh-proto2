@@ -13,22 +13,10 @@ public class BlendBtnController : MonoBehaviour {
         foodHandler = new FoodHandler(); 
     }
     private void OnMouseUp () {
-        /* Post Global.selectedFoods to /api/selectedFood
-         * Update Global.selectedFoodsFromAPI to /api/selectedFood
-         * Post Global.inBlenderFoods to /api/cookedFood
-         */ 
         sendDataToAPI();
-
-        // change the blender button sprite to red
         GetComponent<SpriteRenderer> ().sprite = redSprite;
-
-        // Calculation
         GetComponent<Calculations>().calc(); 
-
-        // change the blender button sprite to green
         GetComponent<SpriteRenderer>().sprite = greenSprite; 
-
-        // enable the Feed Moosh Button
         enableFeedMooshBtn();
     }
 
