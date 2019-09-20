@@ -3,6 +3,8 @@
 ## Table of Contents
 
 1. [Play the game](#play-the-game)
+2. [Future Features](#future-features)
+3. [Team](#team)
 
 ## Play the game
 
@@ -19,7 +21,7 @@ Select one of the usernames below and press play!
 
 [Play!](https://leechuyem.github.io/moosh-game/)
 
-## Features to be added into the game
+## Future Features
 
 - [ ] Customisation
 - [ ] Number of food in the cart = Number of food that can be added into the blender
