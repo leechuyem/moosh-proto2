@@ -20,7 +20,7 @@ Select one of the usernames below and press play!
 | ydik3qp44i      |
 | 23clavzky1      |
 
-[Play!](https://leechuyem.github.io/moosh-game/)
+[**Play!**](https://leechuyem.github.io/moosh-game/)
 
 ## Future Features
 
