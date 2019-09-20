@@ -1,5 +1,9 @@
 # Moosh Game
 
+## Table of Contents
+
+1. [Play the game](#play-the-game)
+
 ## Play the game
 
 Select one of the usernames below and press play!
@@ -14,3 +18,13 @@ Select one of the usernames below and press play!
 | 23clavzky1      |
 
 [Play!](https://leechuyem.github.io/moosh-game/)
+
+## Features to be added into the game
+
+- [ ] Customisation
+- [ ] Number of food in the cart = Number of food that can be added into the blender
+- [ ] Music
+
+## Team
+
+Anh, Lee and Richard
