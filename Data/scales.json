@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "name": "apple",
+    "sugarContent": 0,
+    "categoryName": "fruit",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.35,
+    "singleFoodScale": 0.49
+  },
+  {
+    "id": 2,
+    "name": "avocado",
+    "sugarContent": 0,
+    "categoryName": "vegetables",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.16,
+    "singleFoodScale": 0.52
+  },
+  {
+    "id": 3,
+    "name": "bacon",
+    "sugarContent": 0,
+    "categoryName": "protein",
+    "locationName": "fridge",
+    "batchedFoodScale": 0.13,
+    "singleFoodScale": 0.065
+  },
+  {
+    "id": 4,
+    "name": "banana",
+    "sugarContent": 0,
+    "categoryName": "fruit",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.15,
+    "singleFoodScale": 0.66
+  },
+  {
+    "id": 5,
+    "name": "bread",
+    "sugarContent": 0,
+    "categoryName": "grains",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.23,
+    "singleFoodScale": 0.08
+  },
+  {
+    "id": 6,
+    "name": "broccoli",
+    "sugarContent": 0,
+    "categoryName": "vegetables",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.7,
+    "singleFoodScale": 0.68
+  },
+  {
+    "id": 7,
+    "name": "carrot",
+    "sugarContent": 0,
+    "categoryName": "vegetables",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.085,
+    "singleFoodScale": 0.8
+  },
+  {
+    "id": 8,
+    "name": "cereal",
+    "sugarContent": 0,
+    "categoryName": "grains",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.165,
+    "singleFoodScale": 0.085
+  },
+  {
+    "id": 9,
+    "name": "cheese",
+    "sugarContent": 0,
+    "categoryName": "dairy",
+    "locationName": "fridge",
+    "batchedFoodScale": 0.13,
+    "singleFoodScale": 0.058
+  },
+  {
+    "id": 10,
+    "name": "cherry",
+    "sugarContent": 0,
+    "categoryName": "fruit",
+    "locationName": "garden_background",
+    "batchedFoodScale": 1.8,
+    "singleFoodScale": 0.43
+  },
+  {
+    "id": 11,
+    "name": "chips",
+    "sugarContent": 0,
+    "categoryName": "sometimes",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.12,
+    "singleFoodScale": 0.07
+  },
+  {
+    "id": 12,
+    "name": "chocobar",
+    "sugarContent": 29,
+    "categoryName": "sometimes",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.135,
+    "singleFoodScale": 0.04
+  },
+  {
+    "id": 13,
+    "name": "cupcake",
+    "sugarContent": 25,
+    "categoryName": "sometimes",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.1,
+    "singleFoodScale": 0.055
+  },
+  {
+    "id": 14,
+    "name": "eggs",
+    "sugarContent": 0,
+    "categoryName": "protein",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.165,
+    "singleFoodScale": 0.08
+  },
+  {
+    "id": 15,
+    "name": "grape",
+    "sugarContent": 0,
+    "categoryName": "fruit",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.2,
+    "singleFoodScale": 0.7
+  },
+  {
+    "id": 16,
+    "name": "icecream",
+    "sugarContent": 26,
+    "categoryName": "sometimes",
+    "locationName": "fridge",
+    "batchedFoodScale": 0.3,
+    "singleFoodScale": 0.085
+  },
+  {
+    "id": 17,
+    "name": "juice",
+    "sugarContent": 16,
+    "categoryName": "sometimes",
+    "locationName": "fridge",
+    "batchedFoodScale": 0.13,
+    "singleFoodScale": 0.057
+  },
+  {
+    "id": 18,
+    "name": "lettuce",
+    "sugarContent": 0,
+    "categoryName": "vegetables",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.15,
+    "singleFoodScale": 0.75
+  },
+  {
+    "id": 19,
+    "name": "milk",
+    "sugarContent": 0,
+    "categoryName": "dairy",
+    "locationName": "fridge",
+    "batchedFoodScale": 0.29,
+    "singleFoodScale": 0.1
+  },
+  {
+    "id": 20,
+    "name": "orange",
+    "sugarContent": 0,
+    "categoryName": "fruit",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.65,
+    "singleFoodScale": 0.65
+  },
+  {
+    "id": 21,
+    "name": "pasta",
+    "sugarContent": 0,
+    "categoryName": "grains",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.13,
+    "singleFoodScale": 0.085
+  },
+  {
+    "id": 22,
+    "name": "pineapple",
+    "sugarContent": 0,
+    "categoryName": "fruit",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.7,
+    "singleFoodScale": 1
+  },
+  {
+    "id": 23,
+    "name": "potato",
+    "sugarContent": 0,
+    "categoryName": "vegetables",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.33,
+    "singleFoodScale": 0.5
+  },
+  {
+    "id": 24,
+    "name": "rice",
+    "sugarContent": 0,
+    "categoryName": "grains",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.145,
+    "singleFoodScale": 0.081
+  },
+  {
+    "id": 25,
+    "name": "roll",
+    "sugarContent": 0,
+    "categoryName": "grains",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.12,
+    "singleFoodScale": 0.057
+  },
+  {
+    "id": 26,
+    "name": "soda",
+    "sugarContent": 40,
+    "categoryName": "sometimes",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.12,
+    "singleFoodScale": 0.085
+  },
+  {
+    "id": 27,
+    "name": "steak",
+    "sugarContent": 0,
+    "categoryName": "protein",
+    "locationName": "fridge",
+    "batchedFoodScale": 0.18,
+    "singleFoodScale": 0.08
+  },
+  {
+    "id": 28,
+    "name": "tofu",
+    "sugarContent": 0,
+    "categoryName": "protein",
+    "locationName": "fridge",
+    "batchedFoodScale": 0.3,
+    "singleFoodScale": 0.054
+  },
+  {
+    "id": 29,
+    "name": "tomato",
+    "sugarContent": 0,
+    "categoryName": "vegetables",
+    "locationName": "garden_background",
+    "batchedFoodScale": 0.4,
+    "singleFoodScale": 0.44
+  },
+  {
+    "id": 30,
+    "name": "tuna",
+    "sugarContent": 0,
+    "categoryName": "protein",
+    "locationName": "market_shelf",
+    "batchedFoodScale": 0.17,
+    "singleFoodScale": 0.045
+  },
+  {
+    "id": 31,
+    "name": "water",
+    "sugarContent": 0,
+    "categoryName": "water",
+    "locationName": "kitchen_shelf",
+    "batchedFoodScale": 0.0,
+    "singleFoodScale": 0.0
+  },
+  {
+    "id": 32,
+    "name": "yoghurt",
+    "sugarContent": 0,
+    "categoryName": "dairy",
+    "locationName": "fridge",
+    "batchedFoodScale": 0.12,
+    "singleFoodScale": 0.058
+  }
+]
