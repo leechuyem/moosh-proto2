@@ -9,6 +9,7 @@
 ## Play the game
 
 Select one of the usernames below and press play!
+
 | Usernames       |
 | --------------- |
 | donut-avo-sushi |
